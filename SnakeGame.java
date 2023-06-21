@@ -4,6 +4,7 @@ import java.awt.*;
 //Main SnakeGame class
 public class SnakeGame extends JFrame {
     public static Board playBoard;
+
     public SnakeGame() {
 
         initUI();
@@ -27,6 +28,6 @@ public class SnakeGame extends JFrame {
             JFrame ex = new SnakeGame();
             ex.setVisible(true);
 
-        });
-    }
+        });
+    }
 }
